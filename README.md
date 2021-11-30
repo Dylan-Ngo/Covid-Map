@@ -14,7 +14,7 @@
     ```
 3. Open a browser window and go to
 
-    `http://localhost:3000`
+    `http://localhost:8000`
 
 ## Source:
  
