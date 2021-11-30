@@ -1,0 +1,53 @@
+{
+  "name": "my-coronavirus-map",
+  "description": "Demo repo for blog post",
+  "version": "0.2.0",
+  "author": "Colby Fayock <hello@colbyfayock.com>",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "gatsby": "^2.21.33",
+    "gatsby-plugin-react-helmet": "^3.3.1",
+    "gatsby-plugin-react-leaflet": "2.0.13",
+    "gatsby-plugin-resolve-src": "^2.1.0",
+    "gatsby-plugin-sass": "^2.3.1",
+    "gatsby-source-filesystem": "^2.3.3",
+    "leaflet": "^1.6.0",
+    "node-sass": "^4.14.1",
+    "path": "^0.12.7",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.0.0",
+    "react-leaflet": "^2.7.0"
+  },
+  "devDependencies": {
+    "babel-jest": "^26.0.1",
+    "babel-preset-gatsby": "^0.4.2",
+    "enzyme": "^3.11.0",
+    "jest": "^26.0.1",
+    "prettier": "^2.0.5"
+  },
+  "keywords": [
+    "gatsby",
+    "sass",
+    "leaflet",
+    "mapping",
+    "maps"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
+    "start": "yarn develop",
+    "serve": "gatsby serve"
+  },
+  "homepage": "https://my-coronavirus-map.netlify.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/colbyfayock/my-coronavirus-map"
+  },
+  "bugs": {
+    "url": "https://github.com/colbyfayock/my-coronavirus-map/issues"
+  }
+}

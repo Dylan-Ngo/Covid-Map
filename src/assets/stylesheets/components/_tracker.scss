@@ -1,0 +1,71 @@
+.tracker-stats {
+
+  color: #cd1e1e;
+  background-color: white;
+  border-top: solid 1px black;
+
+  ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+}
+
+.tracker-stat {
+
+  font-size: 2em;
+  text-align: center;
+  padding: .5em;
+  border-right: solid 1px #b0bec5;
+  border-bottom: solid 1px #b0bec5;
+
+  strong {
+    font-weight: normal;
+    color: black;
+  }
+
+}
+
+.tracker-stat-primary {
+
+  margin: 0;
+
+  strong {
+    display: block;
+    font-size: .5em;
+    padding-top: 10px;
+  }
+
+}
+
+.tracker-stat-secondary {
+
+  font-size: .5em;
+  margin: .8em 0 0;
+
+  strong {
+    font-size: .8em;
+    margin-left: .4em;
+  }
+
+}
+
+.tracker-last-updated {
+
+  color: white;
+  background-color: white;
+  padding: .8em 0;
+
+  p {
+    color: black;
+    font-size: 1em;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 50px;
+  }
+
+}
