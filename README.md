@@ -3,15 +3,15 @@
 ## Build and run the app locally
 1. Install Dependencies
 
-```
-npm install
-```
+    ```
+    npm install
+    ```
 
 2. Deployment
 
-```
-npm run develop
-```
+    ```
+    npm run develop
+    ```
 3. Open a browser window and go to
 
     `http://localhost:3000`
