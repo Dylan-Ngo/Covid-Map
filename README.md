@@ -3,27 +3,18 @@
 ## Build and run the app locally
 1. Install Dependencies
 
-```bash
-npm install
 ```
-
-or
-
-```bash
-yarn install
+npm install
 ```
 
 2. Deployment
 
-```bash
+```
 npm run develop
 ```
+3. Open a browser window and go to
 
-or
-
-```bash
-yarn develop
-```
+    `http://localhost:3000`
 
 ## Source:
  
