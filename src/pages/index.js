@@ -33,30 +33,30 @@ const IndexPage = () => {
         label: 'Total Cases',
         value: stats ? commafy( stats?.cases ) : '-',
       },
-      // secondary: {
-      //   label: 'Per 1 Million',
-      //   value: stats ? commafy( stats?.casesPerOneMillion ) : '-',
-      // },
+      secondary: {
+        label: 'Per 1 Million',
+        value: stats ? commafy( stats?.casesPerOneMillion ) : '-',
+      },
     },
     {
       primary: {
         label: 'Total Deaths',
         value: stats ? commafy( stats?.deaths ) : '-',
       },
-      // secondary: {
-      //   label: 'Per 1 Million',
-      //   value: stats ? commafy( stats?.deathsPerOneMillion ) : '-',
-      // },
+      secondary: {
+        label: 'Per 1 Million',
+        value: stats ? commafy( stats?.deathsPerOneMillion ) : '-',
+      },
     },
     {
       primary: {
         label: 'Total Tests',
         value: stats ? commafy( stats?.tests ) : '-',
       },
-      // secondary: {
-      //   label: 'Per 1 Million',
-      //   value: stats ? commafy( stats?.testsPerOneMillion ) : '-',
-      // },
+      secondary: {
+        label: 'Per 1 Million',
+        value: stats ? commafy( stats?.testsPerOneMillion ) : '-',
+      },
     },
     {
       primary: {
