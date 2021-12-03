@@ -1,9 +1,8 @@
 # COVID-19 Map and Data
 
-## [Live Demo:](https://covidmap-team2de.netlify.app/)
-
-    `https://covidmap-team2de.netlify.app/`
-
+### [Live Demo:](https://covidmap-team2de.netlify.app/) 
+`https://covidmap-team2de.netlify.app/`
+    
 ## Build and run the app locally
 1. Install Dependencies
 
