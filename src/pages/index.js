@@ -169,8 +169,11 @@ const IndexPage = () => {
       <Helmet>
         <title>Covid Map | Home Page</title>
       </Helmet>
+      <div style={{'display': 'flex', 'justifyContent': 'center'}}>
+        <p style={{fontSize: '2.215rem', fontFamily: 'Roboto'}}>COVID-19 World Map and Total Cases</p>
+      </div>
 
-      <div className="tracker">
+      <div className="tracker" style={{marginRight: '24px', marginLeft: '24px'}}>
         <Map {...mapSettings} />
         <div className="tracker-stats">
           <ul>

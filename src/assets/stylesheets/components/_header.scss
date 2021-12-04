@@ -2,13 +2,13 @@ header {
 
   width: 100%;
   color: $white;
-  background-color: #33434b;
+  background-color: #3f51b5;
 
   .container {
     display: flex;
     justify-content: space-between;
-    height: 3.5em;
-    line-height: 3.5em;
+    height: 64px;
+    line-height: 64px;
   }
 
   ul {
@@ -25,14 +25,18 @@ header {
     display: block;
     color: white;
     text-decoration: none;
-    padding: 0 .5em;
-    font-size: 13pt;
+    padding: 0 .9em;
+    font-size: 0.875rem;
+    // font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Roboto';
   }
 
   p {
     font-size: 1.5em;
-    font-weight: bold;
+    font-weight: 600;
     margin: 0;
+    // font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Roboto';
   }
 
 }

@@ -10,10 +10,10 @@ const Header = () => {
         <p>Covid Map</p>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">HOME</Link>
           </li>
           <li>
-            <Link to="/page-2/">More Data</Link>
+            <Link to="/page-2/">MORE DATA</Link>
           </li>
         </ul>
       </Container>
