@@ -10,10 +10,10 @@ const Header = () => {
         <p>Covid Map</p>
         <ul>
           <li>
-            <Link to="/">HOME</Link>
+            <Link to="https://coviddashboard-team2DE.netlify.app/">COUNTRY INFO</Link>
           </li>
           <li>
-            <Link to="/page-2/">MORE DATA</Link>
+            <Link to="https://www.vaccines.gov/search/">GET VACCINE</Link>
           </li>
         </ul>
       </Container>
