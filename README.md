@@ -1,5 +1,13 @@
 # COVID-19 Map and Data
 
+> Dillon Go (Team lead)
+>
+> Evan Le
+>
+> Dylan Ngo
+>
+> Elnathan Yoon
+
 ### [Live Demo:](https://covidmap-team2de.netlify.app/) 
    [https://covidmap-team2de.netlify.app/](https://covidmap-team2de.netlify.app/)
     
